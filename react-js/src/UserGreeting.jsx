@@ -14,10 +14,12 @@ function UserGreeting(props){
 }
 UserGreeting.PropTypes={
     isLoggedIn: PropTypes.bool,
-    username: PropTypes.string
+    username: PropTypes.string,
+    age: PropTypes.number
 }
 UserGreeting.defaultProps={
     username: 'Guest',
-    isLoggedIn: false
+    isLoggedIn: false,
+    age: 0
 }
 export default UserGreeting
