@@ -8,7 +8,7 @@ function List(props){
         {id:4, name:"coconut", calories:159},
         {id:5,name:"pineapple", calories:56}];*/
 
-    //fruits.sort((a, b) => a.name.localeCompare(b.name)); //ALPHABETICAL
+    fruits.sort((a, b) => a.name.localeCompare(b.name)); //ALPHABETICAL
     //fruits.sort((a, b) => b.name.localeCompare(a.name)); //Reverse ALPHABETICAL
     //fruits.sort((a, b) => a.calories - b.calories); //NUMERIC
     //fruits.sort((a, b) => b.calories -a.calories);//REVERSE NUMERIC
