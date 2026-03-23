@@ -1,6 +1,9 @@
 import List from './List.jsx'
+import Button from './button.jsx'
+import ProfilePicture from './ProfilePicture.jsx';    
+
 function App() {
-  const fruits =[{ id:1, name:"apple", calories:95},
+  /*const fruits =[{ id:1, name:"apple", calories:95},
         {id:2, name:"banana", calories:45},
         {id:3, name:"cherry", calories:105},
         {id:4, name:"coconut", calories:159},
@@ -17,7 +20,8 @@ function App() {
               {vegetables.length>0 ? <List items={vegetables} category="Vegetables"/> : null}
 
               </>
-       );
+       );*/
+       return(<ProfilePicture/>);
 }
 
 export default App
