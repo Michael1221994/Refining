@@ -10,7 +10,7 @@ function UserGreeting(props){
     const loginPrompt= <h1 className="login-prompt">Please log in</h1>
 
     return (props.isLoggedIn ? welcomeMessage : loginPrompt);
-    // return(props.isLoggedIn ? <h1 className="welcome-message">Welcome back {props.username}</h1> : <h1 className="login-prompt">Please log in</h1>)
+     //return(props.isLoggedIn ? <h1 className="welcome-message">Welcome back {props.username} bro</h1> : <h1 className="login-prompt">Please log in</h1>)
 }
 UserGreeting.PropTypes={
     isLoggedIn: PropTypes.bool,
